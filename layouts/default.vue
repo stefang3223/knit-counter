@@ -49,11 +49,10 @@ export default {
 
   .counter-content {
     display: block;
-    position: fixed;
-    width: 50%;
-    left: 25%;
-    top: 25%;
-    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    
+    padding: 5rem;
     margin: 0 auto;
     background-color: rgba(255,255,255,0.8);
     text-align: center;
@@ -65,8 +64,9 @@ export default {
   }
 
   .counter-val {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
+    font-weight: bold;
   }
 
 </style>
