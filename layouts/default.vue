@@ -7,7 +7,7 @@
       <p class="counter-val">{{counter}}</p>
       <b-button type="is-success" @click="counter++">Increase</b-button>
       <br/>
-      <b-button type="is-danger" @click="counter--">Decrease</b-button>     
+      <b-button type="is-danger" @click="counter>0?counter--:0">Decrease</b-button>     
       <br/>
       <b-button type="is-warning" @click="counter=0">Reset</b-button>
     </div>
